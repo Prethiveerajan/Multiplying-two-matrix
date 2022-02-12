@@ -1,6 +1,7 @@
 # Multiplying-two-matrix
 
 ## AIM:
+To write a python program to read data from CSV files.
 
 ## ALGORITHM:
 
