@@ -1,35 +1,45 @@
 # Multiplying-two-matrix
 
 ## AIM:
-To write a python program to read data from CSV files.
+
 
 
 ## ALGORITHM:
 
 ### Step 1:
-Start the python.
+import numpy as np.
+
 ### Step 2:
-Import pandas.
+Assign empty array.
+
 ### Step 3:
-Mention the CSV file which is to be read.
+Enter the number.
+
 ### Step 4:
-Read the contents of the CSV file using df.read function
+Append the input to the arrays and assign. variable for the array.
+
 ### Step 5:
-End the program.
+Multiply the arrays and print the result.
+
 
 ## PROGRAM:
-#programm developed by:prethiveerajan P
-#refrence number:21500340
-import pandas as pd
-df=pd.read_csv('nba.csv')
-print(df.head(10))
-print(df.tail(10))
-print("coloumn",len(df.axes[0]))
-print("rows",len(df.axes[1])) 
+import numpy as np
+l1,l2=[],[]
+n=int(input())
+for i in range(n):
+l1.append(int(input()))
+for i in range(n):
+l2.append(int(input()))
+value1=np.array(l1)
+value2=np.array(l2)
+result=value1*value2
+print("Product of two arrays is:",result)
+
 
 ## OUTPUT:
-![OUTPUT](pd.png)
+![OUTPUT](ps.png)
 
 
 ## RESULT:
-A python program to read data from CSV files has been created successfully.
+Hence the matrix is multiplied.
+
