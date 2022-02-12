@@ -1,6 +1,7 @@
 # Multiplying-two-matrix
 
 ## AIM:
+To multiply two matrixes
 
 
 
